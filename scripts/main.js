@@ -1,4 +1,6 @@
 
+// making use of jQuery in a seperate script like this, note the order of scripts https://stackoverflow.com/questions/20398021/how-do-i-reference-jquery-from-my-html-javascript-application
+
 _showingPlayerPanel = false;
 _gameId = -1;
 
