@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/css/styling.css">
+
+    <!-- allow dynamic JS: https://cdnjs.com/libraries/jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- to load data from ODS files: https://cdnjs.com/libraries/xlsx -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.2/xlsx.min.js"></script>
+
+    <title>Armored Core Builder</title>
+  </head>
+  <body>
+    <div >
+        <ul id="menu">
+            <li>
+                <a href="#" onclick="setGame(1)">Armored Core</a>
+                <a href="#" onclick="setGame(3)">Armored Core 3</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="bluediv">
+        <input type="button" onclick="showHidePlayer()" value="Show Player" />
+
+        <div class="display-none">
+          <h3 id="First_Point_Header" >Please select an Armored Core game from the Navigation header above.</h3>
+        </div>
+    </div>
+
+    <hr />
+  </body>
+</html>
