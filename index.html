@@ -26,19 +26,24 @@
         <ul id="menu">
             <li>
                 <a href="#" onclick="setGame(1)">Armored Core</a>
+            </li>
+            <li>
                 <a href="#" onclick="setGame(3)">Armored Core 3</a>
             </li>
         </ul>
     </div>
 
-    <div class="bluediv">
-        <input type="button" onclick="showHidePlayer()" value="Show Player" />
-
-        <div class="display-none">
-          <h3 id="First_Point_Header" >Please select an Armored Core game from the Navigation header above.</h3>
-        </div>
+    <div id="errors" class="reddiv display-inherit">
+      <h3 id="First_Point_Header" >Please select an Armored Core game from the Navigation header above.</h3>
     </div>
 
+    <div id="playerPanel" class="bluediv display-none">
+        <button class="btn btn-primary" onclick="showHidePlayers()">Show Player(s)</button>
+
+        <div id="players">
+
+        </div>
+    </div>
     <hr />
   </body>
 </html>
